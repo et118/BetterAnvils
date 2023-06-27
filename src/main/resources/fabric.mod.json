@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "betteranvils",
+  "version": "${version}",
+  "name": "BetterAnvils",
+  "description": "Makes some changes to anvils and their functions",
+  "authors": [
+    "et118"
+  ],
+  "contact": {
+    "website": "et118.github.io",
+    "repo": "https://github.com/et118/BetterAnvils"
+  },
+  "license": "MIT",
+  "icon": "assets/BetterAnvils/icon.png",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "BetterAnvils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
